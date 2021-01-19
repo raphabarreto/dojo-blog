@@ -4,6 +4,7 @@ module.exports = {
     jest: true,
     browser: true,
   },
+  ignorePatterns: ['src/*'],
   extends: ['airbnb', 'prettier', 'prettier/react', 'plugin:react/recommended'],
   globals: {
     Atomics: 'readonly',
